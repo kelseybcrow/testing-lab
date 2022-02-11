@@ -6,7 +6,7 @@ test('Return two test', () => {
 })
 
 test('Greeting test', () => {
-    expect(myFunctions.greeting('Kelsey').toBe('Hello, Kelsey.'))
+    expect(myFunctions.greeting('Kelsey')).toBe('Hello, Kelsey.')
 })
 
 test('Add test', () => {
